@@ -4,7 +4,7 @@ function Person(fName,lName){
         this.name = fName;
         this.surname = lName;
 
-        fullName = () => console.log(fName+" "+lName)
+        this.fullName = () => console.log(fName+" "+lName);
 
         // fullName = function () {
         //     console.log(this.fName+" "+this.lName);
@@ -16,4 +16,4 @@ console.log(per.name);
 
 console.log(per.surname);
 
-console.log(per.fullName);
+per.fullName();

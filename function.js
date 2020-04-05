@@ -15,13 +15,13 @@ print();
 // Functions With Argument.
 
 function name(msg,fname){
-    console.log(msg+" "+fname+"\n");
+    console.log(msg+" "+fname);
 }
 name("Hello","Deepesh");
 
 // Nested Function.
 
-function name(msg){
+function names(msg){
    // var fName = "Deepesh";
     function fullName(){
         var lName = "Soni";
@@ -29,4 +29,4 @@ function name(msg){
     }     
     return fullName(); 
 }
-name("Deepesh");
+names("Deepesh");
