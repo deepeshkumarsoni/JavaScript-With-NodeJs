@@ -1,14 +1,19 @@
 // Creating a Constructor.
 
-function person(fName,lName){
-    this.name = fName;
-    this.surname = lName;
-    fullName = function(){
-        console.log(fName+lName);
-    }
-}
+function Person(fName,lName){    
+        this.name = fName;
+        this.surname = lName;
 
-var per = new person("Deepesh","Soni");
+        fullName = () => console.log(fName+" "+lName)
+
+        // fullName = function () {
+        //     console.log(this.fName+" "+this.lName);
+        // }
+}
+var per = new Person("Deepesh","Soni");
+
 console.log(per.name);
+
 console.log(per.surname);
+
 console.log(per.fullName);
