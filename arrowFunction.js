@@ -16,6 +16,6 @@ console.log(print(4,5));
 
 //Arrow Function are also called Inline Function or Lamda Function.
 
-var print = (a,b) => console.log(a+b); 
+var prints = (a,b) => console.log(a+b); 
 console.log(print(4,5));
-print(7,5);
+prints(7,5);
