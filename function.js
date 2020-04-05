@@ -1,27 +1,27 @@
 // Simple Function Declaration.
 
-/*function print(){
+function print(){
     console.log("Hello Deepesh");
 }
-print();*/
+print();
 
 // Immediate Invoked Function Expression.
-/*
+
 (function print(msg)
 {
     console.log("Hello"+" "+msg);    
-})("Deepesh");*/
+})("Deepesh");
 
 // Functions With Argument.
 
 function name(msg,fname){
-    console.log(msg+" "+fname);
+    console.log(msg+" "+fname+"\n");
 }
 name("Hello","Deepesh");
 
 // Nested Function.
 
-/*function name(msg){
+function name(msg){
    // var fName = "Deepesh";
     function fullName(){
         var lName = "Soni";
@@ -29,4 +29,4 @@ name("Hello","Deepesh");
     }     
     return fullName(); 
 }
-name("Deepesh");*/
+name("Deepesh");
