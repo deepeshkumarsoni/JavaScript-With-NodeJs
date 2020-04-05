@@ -9,7 +9,7 @@ var show = function(a,b)
 
 var print = (a,b) => 
 {
-    return a+b
+    return a+b;
 }
 var print = (a,b) => console.log(a+b); //Arrow Function are also called Inline Function or Lamda Function.
 

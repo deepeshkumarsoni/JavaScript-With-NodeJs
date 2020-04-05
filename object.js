@@ -7,7 +7,9 @@ var person = {
     city : "Chattisgarh",
     fullName : function(){
         console.log(this.fName+" "+this.lName);
-    }
+    },
+    msg : () => console.log("Hello")  //arrow function.
 };
 console.log(person);
 person.fullName();
+person.msg();
