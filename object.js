@@ -8,7 +8,7 @@ var person = {
     fullName : function(){
         console.log(this.fName+" "+this.lName);
     },
-    msg : () => console.log("Hello")  //arrow function.
+    msg : () => console.log(person.city)  //arrow function.
 };
 console.log(person);
 person.fullName();
