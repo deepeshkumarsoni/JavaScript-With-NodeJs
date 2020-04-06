@@ -5,7 +5,7 @@ for(x=1;x<=5;x++){
 
 // Creating a while loop with if-else Statement.
 
-var i = 0;
+var i = 1;
 while(true){
     if(i<=10){
         console.log(i);
