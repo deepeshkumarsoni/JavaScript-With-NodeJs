@@ -1,6 +1,7 @@
 // Creating an Switch Statement.
 
-var sign = "leo";
+var sign = process.argv[2];
+console.log('argv\n',process.argv);
 
 switch(sign){
     case "tarus" : 
