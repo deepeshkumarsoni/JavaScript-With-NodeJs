@@ -4,7 +4,7 @@ function Person(fName,lName){
         this.name = fName;
         this.surname = lName;
 
-        this.fullName = () => console.log(fName+" "+lName);
+        this.fullName = () => console.log(fName+" "+lName);  // Arrow Function.
 
         // fullName = function () {
         //     console.log(this.fName+" "+this.lName);
