@@ -34,7 +34,7 @@ console.log(name.length+'\n');
 // 5.shift() remove the first element of an array and also return that element.
 
 console.log(name.shift());  
-for(var i=0; i<name.length; i++){
+for(var i=0; i<name.length; i++){z
      console.log(name[i])
 }
 console.log(name.length+'\n');
